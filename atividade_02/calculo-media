@@ -1,0 +1,26 @@
+const readline = require("readline");
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question("Digite sua primeira nota", function(nota1){
+ rl.question("Digite sua primeira nota", function(nota2){
+rl.question("Digite sua primeira nota", function(nota3){
+rl.question("Digite sua primeira nota", function(nota4){
+    let media = (parsefloat(nota1) + parsefloat(nota2) + parsefloat(nota3) + parsefloat(nota4)) / 4
+
+    if (media >= 7) {
+        console.log("Voçe foi aprovado");
+    } else {
+        console.log("Voçe foi aprovado");
+    }
+    rl.console();
+
+        });
+
+    });
+
+    });
+ 
+});
