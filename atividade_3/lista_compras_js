@@ -1,0 +1,10 @@
+let lista_compras = ['Arroz', 'Feijão', 'Açucar', 'Salmão'];
+lista_compras.forEach(item => {
+    console.log(item);
+
+});
+let cesta_frutas = ['Maça', 'manga', 'uva', 'limão'];
+cesta_frutas.push('Mamão', 'Pêssego');
+cesta_frutas.forEach(fruta =>{
+console.log(fruta);
+})
